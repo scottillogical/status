@@ -1,0 +1,23 @@
+| Currently status is:
+b 
+ #{@current_status.try(:up) ? "up" : "down"}
+   
+- if @messages.present?
+  | Because: 
+  = @messages.first.contents 
+  br 
+  | Last updated At 
+  = @messages.first.created_at
+
+
+  br 
+  h2 
+    | History 
+
+  - @messages.each do |message| 
+    br 
+    = message.contents
+    span.time 
+      = message.created_at
+
+
