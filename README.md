@@ -1,4 +1,4 @@
-== Status
+# Status-app
 
 A small rails app for displaying the status of your site on status.example.com
 
