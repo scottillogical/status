@@ -1,7 +1,7 @@
 h1 
   | Currently status is 
 .status
-  #{@current_status.try(:up) ? "up" : "down"}
+  #{@current_status.try(:down) ? "down" : "up"}
    
 - if @messages.present?
   | Because: 
