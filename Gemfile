@@ -10,6 +10,11 @@ gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
 
+group :test do
+  # Pretty printed test output
+  gem 'turn', :require => false
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -36,7 +41,3 @@ gem 'slim'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
-  # Pretty printed test output
-  gem 'turn', :require => false
-end
