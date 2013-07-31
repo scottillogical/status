@@ -1,3 +1,13 @@
 // Place all the styles related to the statuses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-size:30px;
+}
+
+.status {
+  font-size:60px;
+  font-weight:bold;
+  line-height:60px;
+}
