@@ -7,4 +7,4 @@ Uses mongob, mongoid, slim, rspec, complete with tests.
 
 Available at 
 
-[[current-status.herokuapp.com|http://current-status.herokuapp.com]]
+http://current-status.herokuapp.com
