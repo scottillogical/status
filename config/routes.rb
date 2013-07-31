@@ -8,6 +8,7 @@ Status::Application.routes.draw do
 
   match "status" => 'statuses#current'
 
+  root :to => 'statuses#current'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
